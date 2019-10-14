@@ -1,0 +1,27 @@
+/*Options acts a container*/
+.options {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid purple;
+  border-radius: .5rem;
+  background-color: white;
+}
+
+.options:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 purple;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.optionPre {
+  padding: 1.5rem 2.5rem;
+  background-color: purple;
+  color: white;
+}
+
+.optionTxt {
+  padding: 1.5rem;
+}
